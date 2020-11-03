@@ -2,7 +2,7 @@
 
 [![Version](https://poser.pugx.org/spinzar/language/v/stable.svg)](https://github.com/spinzar/language/releases)
 [![Downloads](https://poser.pugx.org/spinzar/language/d/total.svg)](https://github.com/spinzar/language)
-[![StyleCI](https://styleci.io/repos//shield?style=flat&branch=master)](https://styleci.io/repos/)
+[![StyleCI](https://github.styleci.io/repos/309643653/shield?branch=main)](https://github.styleci.io/repos/309643653?branch=main)
 [![Quality](https://scrutinizer-ci.com/g/spinzar/language/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/spinzar/language)
 [![License](https://poser.pugx.org/spinzar/language/license.svg)](LICENSE.md)
 
