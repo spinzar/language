@@ -1,0 +1,41 @@
+{
+    "name": "spinzar/language",
+    "description": "Language switcher package for Laravel.",
+    "keywords": [
+        "laravel",
+        "language",
+        "switcher"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nassim Nasibullah",
+            "email": "info@spinzar.co",
+            "homepage": "https://spinzar.co",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^5.6.0|^7.0|^7.1|^7.2|^7.3|^7.4",
+        "laravel/framework": "5.4.*|5.5.*|5.6.*|5.7.*|5.8.*|6.*|7.*|8.*",
+        "jenssegers/agent": "2.6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spinzar\\Language\\": "./src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Spinzar\\Language\\Provider"
+            ],
+            "aliases": {
+                "Language": "Spinzar\\Language\\Facade"
+            }
+        }
+    }
+}
